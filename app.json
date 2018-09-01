@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/snow_pack/snow_pack",
+    "pages/mine/mine",
+    "pages/shopping_cart/shopping_cart"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "崇礼旅游吧",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/wechat/icon_API.png",
+        "selectedIconPath": "images/wechat/icon_API_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shopping_cart/shopping_cart",
+        "iconPath": "images/wechat/icon_component.png",
+        "selectedIconPath": "images/wechat/icon_component_HL.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/wechat/icon_component.png",
+        "selectedIconPath": "images/wechat/icon_component_HL.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
